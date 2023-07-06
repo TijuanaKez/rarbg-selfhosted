@@ -1,4 +1,4 @@
-FROM golang:alpine3.18 AS build
+FROM arm32v7/golang:latest AS build
 
 RUN apk add gcc musl-dev
 
